@@ -1,13 +1,13 @@
-# Requirements Specification: DevMentor - AI Pair Programming for Solo Learners
+# Requirements Specification: Code Obsidian - AI Pair Programming for Solo Learners
 
 ## 🎯 Executive Summary
 
-**Project Name:** DevMentor  
+**Project Name:** Code Obsidian  
 **Hackathon Track:** [Student Track] AI for Learning & Developer Productivity  
 **Tagline:** "Never code alone again - Your AI pair programmer that teaches like a senior dev"
 
 **The Problem We Solve:**
-80% of aspiring developers learn alone, without access to mentorship. Traditional tutorials are passive - you watch, copy-paste, but don't develop real problem-solving skills. When stuck, you're truly stuck. DevMentor transforms solo coding into an interactive mentorship experience.
+80% of aspiring developers learn alone, without access to mentorship. Traditional tutorials are passive - you watch, copy-paste, but don't develop real problem-solving skills. When stuck, you're truly stuck. Code Obsidian transforms solo coding into an interactive mentorship experience.
 
 **Our Innovation:**
 A multi-agent AI system that doesn't just answer questions - it pair programs WITH you, asks YOU questions, catches mistakes BEFORE you make them, and adapts to your learning style in real-time.
@@ -16,9 +16,9 @@ A multi-agent AI system that doesn't just answer questions - it pair programs WI
 
 ## 1. The Unique Value Proposition
 
-### What Makes DevMentor Different from Every Other "AI Coding Tool"
+### What Makes Code Obsidian Different from Every Other "AI Coding Tool"
 
-| Traditional AI Coding Tools | DevMentor (Revolutionary) |
+| Traditional AI Coding Tools | Code Obsidian (Revolutionary) |
 |----------------------------|---------------------------|
 | Passive Q&A or code completion | Active pair programming partner |
 | Gives you the answer | Asks YOU guiding questions |
@@ -30,7 +30,7 @@ A multi-agent AI system that doesn't just answer questions - it pair programs WI
 ### The "Aha!" Moment for Judges
 
 **Demo Scenario:**
-"Watch as I try to implement a binary search. DevMentor doesn't just give me the code - it asks 'What's your plan?' When I start coding, it says 'Wait, think about the edge case when the array is empty.' When I fix that, it reviews my code and says 'Good! Now, can you explain why you used left = mid + 1?' This is how senior developers teach juniors - and no AI tool does this."
+"Watch as I try to implement a binary search. Code Obsidian doesn't just give me the code - it asks 'What's your plan?' When I start coding, it says 'Wait, think about the edge case when the array is empty.' When I fix that, it reviews my code and says 'Good! Now, can you explain why you used left = mid + 1?' This is how senior developers teach juniors - and no AI tool does this."
 
 ---
 
@@ -119,7 +119,7 @@ A multi-agent AI system that doesn't just answer questions - it pair programs WI
 # User types:
 list = [1, 2, 3]
 
-# DevMentor (immediately):
+# Code Obsidian (immediately):
 "⚠️ Heads up! You're about to shadow Python's built-in 'list' type. 
 This will cause problems later. Try 'my_list' or 'numbers' instead.
 Want to know why this matters?"
@@ -177,7 +177,7 @@ Data Structures
 ```
 Session 1: User struggles with list comprehensions
 Session 2 (next day): 
-DevMentor: "Welcome back! Yesterday we worked on list comprehensions. 
+Code Obsidian: "Welcome back! Yesterday we worked on list comprehensions. 
 Want to practice one more before moving to dictionaries?"
 ```
 
@@ -201,7 +201,7 @@ Want to practice one more before moving to dictionaries?"
 ```
 User: "What is recursion?"
 
-DevMentor:
+Code Obsidian:
 📖 Recursion is when a function calls itself to solve smaller 
    versions of the same problem.
 
@@ -324,7 +324,7 @@ for i in range(10)
 ```
 
 Traditional AI: "Error on line 1: Missing colon"  
-**DevMentor:** "Almost there! Take a look at line 1. In Python, what do we need at the end of a for statement? (Hint: it's a punctuation mark!)"
+**Code Obsidian:** "Almost there! Take a look at line 1. In Python, what do we need at the end of a for statement? (Hint: it's a punctuation mark!)"
 
 ### Intermediate (Secondary Persona)
 **Name:** Marcus, 19, CS student learning algorithms  
@@ -336,7 +336,7 @@ Traditional AI: "Error on line 1: Missing colon"
 Marcus asks: "How do I implement a binary search tree?"
 
 Traditional AI: [Gives full implementation]  
-**DevMentor:** "Great choice! BSTs are powerful. Before we code, can you explain to me: what's the key property of a BST? Once you nail that, the implementation follows naturally."
+**Code Obsidian:** "Great choice! BSTs are powerful. Before we code, can you explain to me: what's the key property of a BST? Once you nail that, the implementation follows naturally."
 
 ---
 
@@ -388,7 +388,7 @@ Traditional AI: [Gives full implementation]
 - **Not just code completion** - It teaches you to think
 
 ### The "Wow" Moment in Demo:
-"Watch as DevMentor catches my infinite loop mistake BEFORE I run the code, asks me to explain my logic, and when I realize my error, it says 'You just debugged it yourself - that's growth!'"
+"Watch as Code Obsidian catches my infinite loop mistake BEFORE I run the code, asks me to explain my logic, and when I realize my error, it says 'You just debugged it yourself - that's growth!'"
 
 ---
 
@@ -414,25 +414,25 @@ The MVP is complete when:
 - ❌ Passive Q&A
 - ❌ No real-time code interaction
 - ❌ No learning progression
-- ✅ DevMentor: Active teaching, live coding, skill tracking
+- ✅ Code Obsidian: Active teaching, live coding, skill tracking
 
 **GitHub Copilot:**
 - ❌ Just autocomplete
 - ❌ No explanations
 - ❌ Doesn't teach
-- ✅ DevMentor: Educates while assisting
+- ✅ Code Obsidian: Educates while assisting
 
 **LeetCode/HackerRank:**
 - ❌ Sink or swim
 - ❌ No real-time help
 - ❌ Intimidating for beginners
-- ✅ DevMentor: Patient mentor always available
+- ✅ Code Obsidian: Patient mentor always available
 
 **Codecademy/FreeCodeCamp:**
 - ❌ Linear curriculum
 - ❌ Pre-recorded content
 - ❌ No personalization
-- ✅ DevMentor: Adaptive, real-time, personalized
+- ✅ Code Obsidian: Adaptive, real-time, personalized
 
 ---
 
